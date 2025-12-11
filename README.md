@@ -289,7 +289,7 @@ Pre-processing
 - Categorical Features → One-Hot Encoder
 
 ```python
-rom sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
